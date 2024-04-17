@@ -1,0 +1,27 @@
+.bottom-bar{
+    position: relative;
+    background-color: #464646;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .icons{
+    padding: 55px;
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+  }
+  
+  .icons i{
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    transition: all .50s ease;
+  }
+
+  .icons i:hover{
+    color: rgb(163, 163, 163);
+    transform: translateY(-5px);
+  }
+  

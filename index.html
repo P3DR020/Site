@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV-Catalago</title>
+    <link rel="stylesheet" href="styleICONS.css">
+    <link rel="stylesheet" href="styleHERO.css">
+    <link rel="stylesheet" href="styleHEADER.css">
+    <link rel="stylesheet" href="styleMEDIA.css">
+    <link rel="stylesheet" href="styleBOTTOM.css">
+    <link rel="stylesheet" href="styleSLIDE.css">
+    <link rel="stylesheet" href="styleCENTRO.css">
+
+    <!--icones-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--icones-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+
+
+
+    </head>
+
+<body>
+ 
+      <header >
+        
+        <a href="#" class="logo"><img src="Logo_LV.png" class="logo-img"></a>
+        <ul class="navlist" >
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Marcas</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Sobre nós</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+      </header>
+
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="jalde-slide.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="relogio-slide.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="jalde-slide.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="relogio-slide.png" style="width:100%">
+        </div>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+    </div>
+
+    <div class="barra-meio">
+      <div class="barra-meio-conteiner">
+        <a href="#Perfumes"><img  src="imagens/egeo beat.png" alt=""></a>
+        <p>Perfumes</p>
+      </div>
+      <div class="barra-meio-conteiner">
+        <a href="#Joias"><img  src="imagens/anel.png" alt=""></a>
+        <p>joias</p>
+      </div>
+      <div class="barra-meio-conteiner">
+        <a href="#Hidratantes"><img  src="imagens/lily.png" alt=""></a>
+        <p>hidratantes</p>
+      </div>
+      <div class="barra-meio-conteiner">
+        <a href="#produtos"><img  src="imagens/egeo beat.png" alt=""></a>
+        <p>relogios</p>
+      </div>
+      <div class="barra-meio-conteiner">
+        <a href="#produtos"><img  src="imagens/egeo beat.png" alt=""></a>
+        <p>maquiagem</p>
+      </div>
+    </div>
+    <br>
+    <div class="linha"></div>     
+  
+
+        <script>
+          var slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 3.5 seconds
+          }
+          </script>
+
+      
+    <div class="borda">
+      <section class="hero">
+
+        <div class="hero-text">
+          <h1>CATÁLOGO VIRTUAL</h1>
+          <p>Glamour, delicadeza e design irreverente formam a tríade perfeita que está presente nos 
+             produtos da nossa loja. Com materiais de alto padrão.</p>
+          <a href="#" class="ctaa"><i class="ri-arrow-right-circle-fill"></i></a>
+        </div>
+        <div class="hero-img"><img src="rommanelButton.jpg" alt="Photo01"></div>
+      </section>
+    </div>
+
+    <div class="linha" id="Perfumes"></div>
+
+
+
+    <div class="borda">
+
+      <div class="text-centro" >Perfumes</div>
+       <!---Partes onde fica os produtos --->
+      <section class="produtos"> 
+
+        <div class="container-image">
+          <img src="imagens/quasar ice.png" alt="Photo01">
+          <p>Quasar Ice Desodorante Colônia 100ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/thaty.png" alt="Photo01">
+          <p>Thaty Desodorante Colônia 200ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/malbec.png" alt="Photo01">
+          <p>Malbec Black Desodorante Colônia 100ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/egeo beat.png" alt="Photo01">
+          <p>Egeo Beat Desodorante Colônia 90ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Malbec Ultra Bleu.png" alt="Photo01">
+          <p>Malbec Ultra Bleu Desodorante Colônia 100ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Botica 214 Dark Mint.png" alt="Photo01">
+          <p>Botica 214 Dark Mint Eau De Parfum 90ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Zaad Expedition.png" alt="Photo01">
+          <p>Zaad Expedition Eau De Parfum 95ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Quasar Classic.png" alt="Photo01">
+          <p>Quasar Classic Desodorante Colônia 125ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Floratta Red Desodorante.png" alt="Photo01">
+          <p>Floratta Red Desodorante Colônia 75ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Glamour Diva .png" alt="Photo01">
+          <p>Glamour Diva Desodorante Colônia 75ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        
+      </section>
+
+      <div class="linha" id="Hidratantes"></div>
+
+      <div class="text-centro" >Hidratantes</div>
+       <!---Partes onde fica os produtos --->
+      <section class="produtos"> 
+
+        <div class="container-image">
+          <img src="imagens/nativa spa ameixa.png" alt="Photo01">
+          <p>Hidratante Desodorante Corporal Nativa SPA Ameixa 400ml</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/lily.png" alt="Photo01">
+          <p>Hidratante Desodorante Corporal Lily 250g</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/Liz Flora.png" alt="Photo01">
+          <p>Creme Hidratante Desodorante Corporal Liz Flora 250g</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        
+      </section>
+
+      <div class="linha" id="Joias"></div>
+
+      <div class="text-centro" >Joias</div>
+       <!---Partes onde fica os produtos --->
+      <section class="produtos"> 
+
+        <div class="container-image">
+          <img src="imagens/rommanel/Brinco formato coração vazado. med. 0,6 cm x 0,6 cm..png" alt="Photo01">
+          <p>Brinco formato coração vazado. med. 0,6 cm x 0,6 cm.</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/rommanel/Brinco Rommanel folheado a ouro coração abaulado.png" alt="Photo01">
+          <p>Brinco Rommanel folheado a ouro coração abaulado</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/rommanel/Brinco Rommanel solitário folheado a ouro com zircônia.png" alt="Photo01">
+          <p>Brinco Rommanel solitário folheado a ouro com zircônia</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/rommanel/Anel Rommanel solitário folheado a ouro com zircônia redonda.png" alt="Photo01">
+          <p>Anel Rommanel solitário folheado a ouro com zircônia redonda.</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/rommanel/Brinco Rommanel folheado a ouro cacho de uvas com cristais.png" alt="Photo01">
+          <p>Brinco Rommanel folheado a ouro cacho de uvas com cristais.</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/rommanel/Gargantilha Rommanel folheada a ouro elos grumet e coração com zircônia.png" alt="Photo01">
+          <p>Gargantilha Rommanel folheada a ouro elos grumet e coração com zircônia.</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        <div class="container-image">
+          <img src="imagens/rommanel/Pingente Rommanel profissão Enfermagem folheado a ouro com zircônia e resina.png" alt="Photo01">
+          <p>Brinco Pingente Rommanel profissão Enfermagem folheado a ouro com zircônia e resina.</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        
+        <div class="container-image">
+          <img src="imagens/rommanel/Pulseira Rommanel folheada a ouro elos de esferas e flores com zircônias.png" alt="Photo01">
+          <p>Pulseira Rommanel folheada a ouro elos de esferas e flores com zircônias.</p>
+          <h1>R$ 000,00</h1>
+        </div>
+        
+      </section>
+
+
+
+
+    </div>
+
+    
+
+
+    <div class="bottom-bar">
+      <div class="icons">
+        <a href="https://www.instagram.com/lojinhavirtualdatelma7473?igsh=yxewemuxehppbxq0"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-whatsapp-fill"></i></a>
+        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+      </div>
+    </div>
+
+    <div class="scroll-down">
+      <a href="#"><img src="arrowUp.png" alt="seta"></a>
+    </div>
+
+
+
+
+
+
+
+      <!---efeito scrolll--->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <script>
+        const sr = ScrollReveal ({
+          distance: '65px',
+          duration: 2600,
+          delay: 450,
+          reset: true
+        });
+
+        
+        sr.reveal('.scroll-down',{delay:200, origin:'top'})
+        
+      </script>
+
+
+
+       <!-----codigo java------>
+
+      <script>
+          let menu = document.querySelector('#menu-icon');
+          let navlist = document.querySelector('.navlist');
+
+          menu.onclick = () => {
+          menu.classList.toggle('bx-x');
+          navlist.classList.toggle('open');
+          }
+      </script>
+
+</body>
+
+</html>

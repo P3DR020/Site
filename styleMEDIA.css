@@ -1,0 +1,122 @@
+@media (max-width: 1535px){
+    header{
+        padding: 15px 3px;
+        transition: .2s;
+    }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .scrow-down{
+        right: 3%;
+        transition: .2s;
+    }
+  }
+  @media (max-width: 1460px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+  }
+  
+  @media (max-width: 1535px){
+    .slideshow-container img{
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+    }
+    .hero-text h1{
+        font-size: 55px;
+        margin: 0 0 30px;
+    }
+  
+    .hero-text p{
+      font-size: 15px;
+  }
+  
+  }
+  @media (max-width: 1195px){
+    section{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .hero-text{
+        padding-top: 115px;
+    }
+    .hero-img{
+      height: auto;
+      width: auto;
+      padding: 0;
+      text-align: center;
+    }
+    .hero-img img{
+      height: auto;
+      width: 350px;
+    }
+    .slideshow-container{
+        text-align: center;
+    }
+    .slideshow-container img{
+        width: auto;
+        height: auto;
+    }
+    .hero{
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .icons{
+        display: none;
+    }
+    .scroll-down{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 990px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 220px;
+        height: 40vh;
+        background: gray;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 7px 0;
+        margin-left: 0;
+    }
+    .navlist.open{
+        right: 0;
+    }
+  }
+  @media (max-width: 800px){
+    .slideshow-container img{
+        width: 100%;
+        height: auto;
+    }
+  }
+
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  /* Slide top end*/
+
+  @media (max-width: 767px) {
+    .produtos {
+        margin: 18px 8px 5px 8px;
+      grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    }
+  }

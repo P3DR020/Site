@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+
+
+
+body{
+  background: white;
+}
+
+
+.scroll-down{
+  position: fixed ;
+  right: 9%;
+  bottom: 50px;
+  
+}
+
+.scroll-down img{
+  padding: 5px;
+  font-size: 18px;
+  background: transparent;
+  border-radius: 50%;
+  transition: all .50s ease;
+  justify-content: end;
+  width: auto;
+  border:solid 2px #474747 ;
+  
+
+}
+
+.scroll-down img:hover{
+  transform: translateY(-15px);
+}
+
+
+
+
+
+
+
+
+

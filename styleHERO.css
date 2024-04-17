@@ -1,0 +1,91 @@
+.hero{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    gap: 1px;
+    justify-content: center;
+    padding-bottom:80px ;
+    
+  }
+  .linha{
+    border-bottom: #bbbbbb 2px solid;
+    height: auto;
+    width: 100%;
+
+  }
+  
+
+  .hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    margin-bottom: 40px;
+  
+  }
+  
+  .hero-text h1{
+    font-family: "Literata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 1;
+    color: Black;
+    margin: 50px 30px 0 30px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+  }
+
+  .hero-img{
+    height: auto;
+    width: auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .hero-img img{
+    height: auto;
+    width: 450px;
+  }
+  
+  .hero-text p {
+    margin: 10px 50px 0  50px;
+    color: gray;
+    font-size: 15px;
+    line-height: 1.9;
+    overflow-wrap: break-word; /* Handles word wrapping */
+    word-wrap: break-word; /* Fallback for older browsers */
+    word-break: break-word; /* Handles non-breaking words like URLs */
+    text-align: center;
+  }
+  
+  .hero-text a{
+    display: inline-block;
+    color: black;
+    background: transparent;
+    border: 1px solid gray;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+  }
+  
+  .hero-text a:hover{
+    background: rgb(192, 192, 192);
+    border: 1px solid transparent;
+    transform: translateX(8px);
+  }
+  
+  .hero-text a.ctaa{
+    margin-left: 20px;
+  }
+  
+  .hero-text a.ctaa.i{
+    vertical-align: middle;
+    margin-right: 5px;
+  }
